@@ -13,6 +13,7 @@
 		0EEEBC1D24E32609002AFF78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEEBC1B24E32609002AFF78 /* Main.storyboard */; };
 		0EEEBC1F24E3260C002AFF78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EEEBC1E24E3260C002AFF78 /* Assets.xcassets */; };
 		0EEEBC2224E3260C002AFF78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEEBC2024E3260C002AFF78 /* LaunchScreen.storyboard */; };
+		0EEEBC2A24E32619002AFF78 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0EEEBC2924E32619002AFF78 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0EEEBC1E24E3260C002AFF78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EEEBC2124E3260C002AFF78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EEEBC2324E3260C002AFF78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EEEBC2924E32619002AFF78 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				0EEEBC1924E32609002AFF78 /* ViewController.swift */,
 				0EEEBC1B24E32609002AFF78 /* Main.storyboard */,
 				0EEEBC1E24E3260C002AFF78 /* Assets.xcassets */,
+				0EEEBC2924E32619002AFF78 /* Inceptionv3.mlmodel */,
 				0EEEBC2024E3260C002AFF78 /* LaunchScreen.storyboard */,
 				0EEEBC2324E3260C002AFF78 /* Info.plist */,
 			);
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EEEBC1A24E32609002AFF78 /* ViewController.swift in Sources */,
+				0EEEBC2A24E32619002AFF78 /* Inceptionv3.mlmodel in Sources */,
 				0EEEBC1624E32609002AFF78 /* AppDelegate.swift in Sources */,
 				0EEEBC1824E32609002AFF78 /* SceneDelegate.swift in Sources */,
 			);
